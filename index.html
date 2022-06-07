@@ -47,22 +47,30 @@
 
         <!--Start primary navigation bar-->
         <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
-              <a class="navbar-brand" href="#">Spare Car Parts</a>
+              <a class="navbar-brand px-4" href="#">Spare Car Parts</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav m-auto font-rubik">
                   <li class="nav-item">
                     <a class="nav-link active">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Category</a>
+                    <a class="nav-link" href="#">Category<i class="fas fa-chevron"></i></a> 
+                    <!--fas and fa-chevron class not working (will show arrow up symbol next to text)-->
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Products</a>
                   </li>
                 </ul>
+                <form action="#" class="font-size-14 font-rale px-4">
+                    <!--px-4 written to push shopping cart further from right side of screen-->
+                    <a href="#" class="py-2 rounded-pill color-primary-bg">
+                        <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                    </a>
+                </form>
               </div>
           </nav>
         <!--End primary navigation bar-->  
