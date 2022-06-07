@@ -1,0 +1,19 @@
+{
+  "name": "spare-car-parts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ash-315/daily-website-spare-car-parts.git"
+  },
+  "author": "Ashfaq Ahmed, Mahmood Majid, Salim Nasser, Faisal Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ash-315/daily-website-spare-car-parts/issues"
+  },
+  "homepage": "https://github.com/Ash-315/daily-website-spare-car-parts#readme"
+}
