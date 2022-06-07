@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile Shopee</title>
+    <title>Spare Car Parts</title>
     
     <!--Bootstrap CSS CDN
-    Used for easy references to CSS classes, provided from Bootstrap library-->
+    Used for easy references to CSS classes, provided from Bootstrap library
+    Most classes used in website are from bootstrap
+    All classes have been explained once using comments, similar classes are not explained-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <!--OwlCarousel2 CDN
@@ -22,9 +24,67 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!--Start #header-->
+    <header id="header">
+        <!--d-flex is display flex
+        content is justified in between
+        px-4 is padding of 4px (left and right)
+        py-1 is padding of 1px (top and bottom)
+        bg-light gives a light grey background-->
+        <div class="strip d-flex justify-content-between px-4 py-1 bg-light"> 
+            <!--font-rale gives the raleway font
+            font size is 12
+            text-black-50 gives a light grey color
+            m-0 gives a margin of 0px (no margin)-->
+            <p class="font-rale font-size-12 text-black-50 m-0">Testing this part</p>
+            <div class="font-rale font-size-14">
+                <!--border-right and border-left gives a border on the right and left side of text, respectively-->
+                <a href="#" class="px-3 border-right border-left text-dark">Login</a>
+                <a href="#" class="px-3 border-right text-dark">Wishlist (0)</a>
+            </div>
+        </div>
+
+        <!--Start primary navigation bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Spare Car Parts</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Category</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!--End primary navigation bar-->  
+    </header>
+    <!--End #header-->
+
+    <!--Start #main-->
+    <main>
+
+    </main>
+    <!--End #main-->
+
+    <!--Start #footer-->
+    <footer>
+
+    </footer>
+    <!--End #footer-->
+
     <!--Bootstrap JS CDN
     Used for easy references to JS, provided from Bootstrap library-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
 </body>
 </html>
